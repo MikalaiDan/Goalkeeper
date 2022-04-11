@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=divice-width, initial-scale= 1.0">
+        <title>My resume</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="function" href="js/function.js">
+    </head>
+    <body>
+        //my conteiner
+        <div>
+            <div>
+            //my profession and name
+            <div>
+                <h1>Daneiko Mikalai</h1>
+                <h2>Futsal goalkeeper</h2>
+                <p>A goalkeeper with the skills you need to make your team successful both in the training process and during official
+                games!</p>
+
+            //my experience
+            </div>
+            <h3>Teams and statistics</h3>
+            <ol>
+                <li>
+                    <a href="https://vk.com/druksteam">MFC Druk-S</a>
+                </li>
+                <li>
+                    <a href="https://instagram.com/afcpatriotminsk?utm_medium=copy_link">FC Patriot</a>
+                </li>
+                <li>
+                    <a href="https://futsalkyiv.com/teams/76?tournament_id=104">MFC Aten</a>  
+                </li>
+            </ol>
+
+            <div>
+                <button onclick="alert(12)"> 
+                <h4>Goals</h4>
+                </button>
+                <button onclick="alert(54)">
+                <h4>Goals conceded</h4>
+                </button>
+                <button onclick="alert(78)">
+                <h4>Efficiency(shots/saves)</h4>
+                </button>
+            </div>
+
+            <div>
+                <h3>Highlights</h3>
+                <section>
+                <video width="640" height="480"controls scr="video/video.mp4"> </video>
+                </section>
+
+            </div>
+            </div>
+
+            <aside>
+                <img src="img/photo_2022-04-06_20-28-56.jpg">
+            
+            <div>
+                <h3>Contakts</h3>
+                <div>
+                <a href="tel:+375445212622">+375445212622</a>
+                </div>
+                <div>
+                    <a href="https://instagram.com/save_futsal?igshid=YmMyMTA2M2Y=">Instagram</a>
+                </div>
+                <div>
+                <h3>Additional Information</h3>
+
+                    <div class="row">
+                    <div class="column">
+                        <img src="img/1.jpg" alt="Nature" onclick="openImg(this);">
+                    </div>
+                    <div class="column">
+                        <img src="img/2.jpg" alt="Snow" onclick="openImg(this);">
+                    </div>
+                    <div class="column">
+                        <img src="img/3.jpg" alt="Mountains" onclick="openImg(this);">
+                    </div>
+                    <div class="column">
+                        <img src="img/4.jpg" alt="Lights" onclick="openImg(this);">
+                    </div>
+                    <div class="column">
+                        <img src="img/5" alt="Lights" onclick="openImg(this);">
+                    </div>
+                    </div>
+
+                    <!-- The expanding image container -->
+                    <div class="container">
+                    <!-- Close the image -->
+                    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+                    <!-- Expanded image -->
+                    <img id="expandedImg" style="width:100%">
+
+                    <!-- Image text -->
+                    <div id="imgtext"></div>
+                    </div>
+                </div>
+            </aside>
+                </div>
+            </div>
+        </div>
+        </body>
+</html>
